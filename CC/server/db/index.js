@@ -1,0 +1,15 @@
+const { Pool } = require("pg");
+
+ 
+const pool = new Pool({
+    user: 'postgres',
+    host: 'localhost',
+    database: 'CC',
+    password: 'Apple!@#',
+    port: 5432,
+});
+
+ 
+module.exports = {
+    query: (text,params) => pool.query(text,params),
+};

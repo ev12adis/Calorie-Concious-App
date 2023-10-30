@@ -1,15 +1,19 @@
 require("dotenv").config();
 const express = require("express");
+const db = require("./db");
+
+var morgan = require("morgan");
 
 const app = express();
 
-app.get("/getX1", (req, res) => {
-  res.status(404).json({
+app.use(express.json());
+
+app.get("/getX1", async (req, res) => {
+  res.status(200).json({
     status: "success",
-    food: "burger"
+    food: "burger",
   });
 });
-
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => {

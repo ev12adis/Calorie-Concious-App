@@ -1,4 +1,4 @@
-DATE,TIME (Hours),WORK,112.5
+DATE,TIME (Hours),WORK,121.5
 8/31/2023,2,Completed Project proposal and surver intake forms.,
 9/2/2023,2,Begin working on Design documents. Created written project proposal page,
 9/3/2023,3,Researched and Created design document timeline of project,
@@ -48,3 +48,6 @@ DATE,TIME (Hours),WORK,112.5
 10/24/2023,3,Learning About Node and Express.js. Continue Presentation slides,
 10/25/2023,3,"Learning about express, Successfully implemented node and express to create server. PostMan for API testing?",
 10/26/2023,3,"Learning about creating express routes, And researching how to use  and implement Nutrionx and Google API Can begin updating Repository in accordance to physical progress Convert Timelog to CSV format for repository.",
+10/27/2023,3,Configuring Express server and learning about react and bootstrap,
+10/28/2023,3,Successfully installed react and bootstrap. Began learning how to configure router setup,
+10/29/2023,3,Learned how to and managed to successfully route web pages for front end. Begin front end layout-Bootstrap can help.,
