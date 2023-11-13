@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./routes/Home";
 import Calc from "./routes/Calc";
+import Places from "./routes/Places";
+import SignUp from "./routes/SignUp";
+import Login from "./routes/Login";
+import { DataContextProvider } from "./context/DataContext";
 
 /*function App1() {
   return (
@@ -28,14 +32,19 @@ import Calc from "./routes/Calc";
 
 const App = () => {
   return (
-    <div>
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Home/>} />
-          <Route exact path="/calc"  element={<Calc/>} />
-        </Routes>
-      </Router>
-    </div>
+    <DataContextProvider>
+      <div /*className="container"*/>
+        <Router>
+          <Routes>
+            <Route exact path='/'element={<Home />} />
+            <Route exact path='/calc' element={<Calc />} />
+            <Route exact path='/places' element={<Places />} />
+            <Route exact path='/signup' element={<SignUp />} />
+            <Route exact path='/login' element={<Login />} />
+          </Routes>
+        </Router>
+      </div>
+    </DataContextProvider>
   );
 };
 

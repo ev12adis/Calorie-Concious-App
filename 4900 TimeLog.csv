@@ -1,4 +1,4 @@
-DATE,TIME (Hours),WORK,121.5
+DATE,TIME (Hours),WORK,150.5
 8/31/2023,2,Completed Project proposal and surver intake forms.,
 9/2/2023,2,Begin working on Design documents. Created written project proposal page,
 9/3/2023,3,Researched and Created design document timeline of project,
@@ -51,3 +51,17 @@ DATE,TIME (Hours),WORK,121.5
 10/27/2023,3,Configuring Express server and learning about react and bootstrap,
 10/28/2023,3,Successfully installed react and bootstrap. Began learning how to configure router setup,
 10/29/2023,3,Learned how to and managed to successfully route web pages for front end. Begin front end layout-Bootstrap can help.,
+10/30/2023,2,Begin working on Presentation slides,
+11/1/2023,3,Continue working on presentation slides,
+11/2/2023,1.5,Continue working on presentation slides revised database.,
+11/3,2,finish presentation slides.,
+11/4/2023,2,Revise routes in accordance to database. ,
+11/5/2023,2,Begin working on context api.,
+11/6/2023,2,Setup contet API. Using 'Axios' for ease of use.  Learn about React hooks.,
+11/7/2023,2,Learn and configure API hooks. This speeds of the process using and stating react features without using a class.,
+11/8/2023,1.5,Continue Frontend Design,
+11/9/2023,2,"Continue Frontend Design, General design for Login/Signup pages finished. Home page started.",
+11/10/2023,2,"3rd Database Revision in accordance to 3rd Party API, Allowing program to keep track of food through API instead.",
+11/11/2023,3,Researching NutrionixAPI and how to implement.,
+11/12/2023,2,"Conitnue Frontend design, continue forming home page. Implementing component usability such as login/signup buttons.",
+11/13/2023,2,Demo 2 complete.,
