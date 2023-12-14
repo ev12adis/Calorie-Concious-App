@@ -9,6 +9,7 @@ import SignUp from "./routes/SignUp";
 import Login from "./routes/Login";
 import { DataContextProvider } from "./context/DataContext";
 
+
 /*function App1() {
   return (
     <div className="App">

@@ -7,6 +7,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+var NutritionixClient = require('nutritionix');
+var nutritionix = new NutritionixClient({
+    appId: 'c1a13853',
+    appKey: 'Y369a92284a0e668e4495e353572c95b6'
+    // debug: true, // defaults to false
+});
+
 /*app.get("/api/v1/data/:id", async (req, res) => {
   res.status(200).json({
     status: "success",
@@ -15,6 +22,16 @@ app.use(express.json());
 });
 */
 
+
+app.get("/api/users", async (req, res) => {
+  try {
+    const users = await db.query('SELECT * FROM users');
+    res.json(users.rows);
+  } catch (error) {
+    console.error("Error fetching users:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+});
 //Register a new user
 app.post("/api/register", async (req, res) => {
   const { username, password } = req.body;
@@ -23,6 +40,8 @@ app.post("/api/register", async (req, res) => {
     const result = await db.query('INSERT INTO users (username, password) VALUES ($1, $2) RETURNING *', [username, password]);
 
     res.json(result.rows[0]);
+    console.log;
+
   } catch (error) {
     console.error("Error registering user:", error);
     res.status(500).json({ error: "Internal Server Error" });
