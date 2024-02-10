@@ -21,3 +21,4 @@ One significant need for this application arises from the fact that eating out i
  External APIs:
 - Nutritionix API for sourcing food items and calorie data
 - Google API for location data
+[CalorieConscious_Final_PresentationSlides_EvanAdis.pdf](https://github.com/ev12adis/Yelp-Clone-App/files/14227210/CalorieConscious_Final_PresentationSlides_EvanAdis.pdf)
