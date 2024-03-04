@@ -13,7 +13,7 @@ The motivation behind this project is the widespread lack of awareness regarding
 
 One significant need for this application arises from the fact that eating out is often the most affordable meal option for low-income households. However, determining the most calorie-optimal meal can be challenging. The Calorie Conscious App fills this knowledge gap by suggesting meal options based on user preferences and daily calorie intake targets.
 ## Tools
-
+- Prototype/Wireframe: Figma
 - Frontend: React
 - Backend/Server: Node.js
 - Framework: Express.js
